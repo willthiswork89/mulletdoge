@@ -1,5 +1,9 @@
 /**
- *Submitted for verification at BscScan.com on 2021-04-21
+ *Submitted for verification at BscScan.com on 2021-04-18
+*/
+
+/**
+ *Submitted for verification at BscScan.com on 2021-04-14
 */
 
 pragma solidity ^0.6.0;
@@ -474,8 +478,8 @@ contract MDGE is Context, IBEP20, Ownable {
     uint256 private _tFeeTotal;
     uint256 private _tBurnTotal;
     
-    uint256 private      _TAX_FEE = 200;
-    uint256 private     _BURN_FEE = 200;
+    uint256 private      _TAX_FEE = 0;
+    uint256 private     _BURN_FEE = 0;
     uint256 private constant _MAX_TX_SIZE = 10000000000000 * _DECIMALFACTOR;
 
     constructor () public {
